@@ -41,6 +41,7 @@ class CreateTodo extends Component {
       todo_description: "",
       todo_status: false
     });
+    this.props.history.push("/");
   }
 
   render() {

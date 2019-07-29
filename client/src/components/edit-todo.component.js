@@ -68,12 +68,13 @@ export default class EditTodo extends Component {
         <h3>Update Todo</h3>
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
-            <label>Description: </label>
+            <label>Açıklama: </label>
             <input
               type="text"
               className="form-control"
               value={this.state.todo_description}
               onChange={this.onChangeTodoDescription}
+              placeholder="Örnek: Martılara simit atmayı unutma..."
             />
 
             <div className="form-check">
@@ -87,7 +88,7 @@ export default class EditTodo extends Component {
                 value={this.state.todo_status}
               />
               <label className="form-check-label" htmlFor="completedCheckbox">
-                Completed
+                Kaydet
               </label>
             </div>
             <br />
