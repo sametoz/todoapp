@@ -88,14 +88,14 @@ export default class EditTodo extends Component {
                 value={this.state.todo_status}
               />
               <label className="form-check-label" htmlFor="completedCheckbox">
-                Kaydet
+                Tamamlandı
               </label>
             </div>
             <br />
             <div className="form-group">
               <input
                 type="submit"
-                value="Update Todo"
+                value="Güncelle"
                 className="btn btn-primary"
               />
             </div>
